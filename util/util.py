@@ -42,3 +42,7 @@ def get_longest(first, second):
         longest = second
         shortest = first
     return longest, shortest
+
+
+def transpose(matrix):
+    return list(zip(*matrix))
