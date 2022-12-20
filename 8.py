@@ -106,7 +106,5 @@ def execute():
     print('max scenic score', forest.max_scenic_score())
 
 
-
-
 if __name__ == '__main__':
     execute()
