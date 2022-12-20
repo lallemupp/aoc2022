@@ -1,7 +1,7 @@
 import numpy as np
 
 if __name__ == '__main__':
-    apa = [[1, 2, 3]]
-    apa = np.append(apa, [[1, 2, 3]], axis=0)
-    apa = np.append(apa, [[4,5,6]], axis=0)
-    print(apa)
+    apa = 1
+    numbers = [a for a in range(10)]
+    numbers.insert(0, apa)
+    print(numbers)

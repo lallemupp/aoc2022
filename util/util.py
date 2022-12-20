@@ -46,3 +46,19 @@ def get_longest(first, second):
 
 def transpose(matrix):
     return list(zip(*matrix))
+
+
+def take_first(t):
+    return t[0]
+
+def take_second(t):
+    return t[1]
+
+def add(x, y):
+    return x + y
+
+def multiply(x, y):
+    return x * y
+
+def mod(x, y):
+    return x % y
